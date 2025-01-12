@@ -3,6 +3,7 @@ import "./App.css";
 import { Counter, ExpCal, List, Timer } from "./Components/Timer";
 import CurrencyExhange, { CheckValue } from "./Components/CurrancyExchange";
 import Stopwatch from "./Components/Stopwatch";
+import WeatherApp from "./Components/WeatherApp";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       <ExpCal />
       <CurrencyExhange />
       <CheckValue /> */}
-      <Stopwatch />
+      {/* <Stopwatch />
+       */}
+       <WeatherApp/>
     </div>
   );
 }
